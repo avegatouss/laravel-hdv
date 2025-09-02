@@ -1,4 +1,5 @@
-﻿<?php
+<?php
+
 namespace LaravelHdv\Http\Controllers\Admin;
 
 use Illuminate\Routing\Controller;

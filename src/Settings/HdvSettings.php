@@ -1,4 +1,5 @@
-﻿<?php
+<?php
+
 namespace LaravelHdv\Settings;
 
 use Spatie\LaravelSettings\Settings;

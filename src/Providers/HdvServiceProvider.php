@@ -1,4 +1,5 @@
-﻿<?php
+<?php
+
 namespace LaravelHdv\Providers;
 
 use Illuminate\Support\Facades\Route;

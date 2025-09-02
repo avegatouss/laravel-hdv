@@ -1,4 +1,5 @@
-﻿<?php
+<?php
+
 namespace LaravelHdv\Http\Middleware;
 
 use Closure;

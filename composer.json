@@ -1,23 +1,22 @@
-﻿{
-  "name": "vendor/laravel-hdv",
-  "description": "Hiérarchies • Demandes • Validations pour Laravel",
-  "type": "library",
-  "autoload": {
-    "psr-4": {
-      "LaravelHdv\\": "src/"
+{
+    "name": "vendor/laravel-hdv",
+    "description": "Hiérarchies • Demandes • Validations pour Laravel",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "LaravelHdv\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelHdv\\Providers\\HdvServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0",
+        "spatie/laravel-settings": "^3.4"
     }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "LaravelHdv\\Providers\\HdvServiceProvider"
-      ]
-    }
-  },
-  "require": {
-    "php": "^8.2",
-    "illuminate/support": "^10.0|^11.0",
-    "spatie/laravel-settings": "^3.4"
-  }
-  
 }

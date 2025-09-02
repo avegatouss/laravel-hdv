@@ -1,4 +1,5 @@
-﻿<?php
+<?php
+
 namespace LaravelHdv\Support;
 
 use Illuminate\Support\Facades\Cache;
